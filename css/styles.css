@@ -11,6 +11,7 @@ html {
     --primary-text-color: #434455;
     --accent-color: #4D5AE5;
     --active-color: #FFF;
+    --indent-number: 30px;
 }
 
 body {
@@ -22,7 +23,9 @@ body {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--accent-color);
 }
 
@@ -57,9 +60,9 @@ body {
     color: var(--primary-text-color);
 }
 
-.contact-link:hover,
-.contact-link:focus {
-    color: var(--accent-color);
+.contact-link-address:hover,
+.contact-link-address:focus {
+    color: #404bbf;
 }
 /*-----------------------------------------Cap content---------------------------------------*/
 .hero {
@@ -119,7 +122,7 @@ body {
 .paragraph,.paragraph-address,
 .contact-link-address {
     font-family: 'Roboto';
-        font-style: normal;
+    font-style: normal;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;
@@ -137,7 +140,14 @@ body {
     color: var(--title-text-color);
 }
 /*-----------------------------------------Our Team----------------------------------------------*/
-
+.team {
+    background-color: #F4F4FD;
+}
+.list-team {
+    display: flex;
+    margin-right: calc(-1 * var(--indent-number));
+    margin-top: 50px;
+}
 .title-name {
     font-weight: 500;
     font-size: 16px;
@@ -207,13 +217,4 @@ body {
 
 .footer-studio {
     color: var(--active-color);
-}
-
-.contact-link-address {
-    color: rgba(67, 68, 85, 1);
-}
-
-.contact-link-address:hover,
-.contact-link-address:focus {
-    color: var(--accent-color);
 }
