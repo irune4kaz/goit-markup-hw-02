@@ -10,20 +10,19 @@ html {
     --title-text-color: #2E2F42;
     --primary-text-color: #434455;
     --accent-color: #4D5AE5;
-    --active-color: #F4F4FD;
+    --active-color: #FFF;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--title-text-color);
 }
-/*-----------------------------------------ШАПКА САЙТА--------------------------------------------*/
+/*-----------------------------------------Site header--------------------------------------------*/
 .text-link,.text-link-footer {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
-    letter-spacing: 0.54px;
     color: var(--accent-color);
 }
 
@@ -41,9 +40,8 @@ body {
 
 .navigation-link {
     font-weight: 500;
-    font-size: 24px;
-    line-height: 0.32px;
-    letter-spacing: 0.32px;
+    font-size: 16px;
+    line-height: 24px;
     color: var(--title-text-color);
 }
 
@@ -54,9 +52,8 @@ body {
 
 .contact-link {
     font-weight: 400;
-    font-size: 24px;
-    line-height: 0.32px;
-    letter-spacing: 0.32px;
+    font-size: 16px;
+    line-height: 24px;
     color: var(--primary-text-color);
 }
 
@@ -64,17 +61,16 @@ body {
 .contact-link:focus {
     color: var(--accent-color);
 }
-/*-----------------------------------------ШАПКА КОНТЕНТУ---------------------------------------*/
+/*-----------------------------------------Cap content---------------------------------------*/
 .hero {
     background-color: #2E2F42;
     text-align: center;
 }
 
 .title-hero {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
     text-transform: uppercase;
     color: var(--active-color);
 }
@@ -85,11 +81,12 @@ body {
     line-height: 24px;
     display: flex;
     align-items: center;
-    letter-spacing: 0.64px;
     cursor: pointer;
     color: var(--active-color);
     background-color: #4D5AE5;
     margin: 0 auto;
+    padding: 16px 32px;
+    border-radius: 4px;
 }
 
 .button:hover,
@@ -97,7 +94,7 @@ body {
     color: var(--active-color);
     background-color: var(--accent-color);
 }
-/*-----------------------------------------НАШІ ОСОБЛИВОСТІ--------------------------------------*/
+/*-----------------------------------------Our features--------------------------------------*/
 .visually-hidden {
         position: absolute;
         width: 1px;
@@ -131,7 +128,7 @@ body {
 .paragraph-address {
     color: var(--active-color);
 }
-/*-----------------------------------------ЧИМ МИ ЗАЙМАЄМОСЬ----------------------------------------*/
+/*-----------------------------------------What are we doing----------------------------------------*/
 .title-development,.title-team {
     font-size: 36px;
     line-height: 1.17;
@@ -139,7 +136,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
-/*-----------------------------------------НАША КОМАНДА----------------------------------------------*/
+/*-----------------------------------------Our Team----------------------------------------------*/
 
 .title-name {
     font-weight: 500;
@@ -157,7 +154,7 @@ body {
     letter-spacing: 0.4px;
     color: var(--primary-text-color);
 }
-/*-----------------------------------------ФІЛЬТРИ ПРОЕКТІВ-------------------------------------------*/
+/*-----------------------------------------Filters-------------------------------------------*/
 .list-filter {
     display: inline-flex;
     justify-content: center;
@@ -203,7 +200,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
-/*-----------------------------------------ПІДВАЛ------------------------------------------------*/
+/*-----------------------------------------Footer-----------------------------------------------*/
 .footer {
     background: #2E2F42;
 }
