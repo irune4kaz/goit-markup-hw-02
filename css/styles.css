@@ -16,7 +16,8 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--title-text-color);
+    color: #434455;
+    background-color: #FFFFFF;
 }
 /*-----------------------------------------Site header--------------------------------------------*/
 .text-link,.text-link-footer {
@@ -45,12 +46,13 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.02em;
     color: var(--title-text-color);
 }
 
 .navigation-link:hover,
 .navigation-link:focus {
-    color: var(--accent-color);
+    color: #404bbf ;
 }
 
 .contact-link {
@@ -58,6 +60,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: var(--primary-text-color);
+    font-style: normal;
 }
 
 .contact-link-address:hover,
@@ -174,17 +177,17 @@ body {
 
 }
 .list-project {
+    text-decoration: none;
+    list-style: none;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
    
 }
-
-
 .button-filter {
     cursor: pointer;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -220,5 +223,5 @@ body {
 }
 
 .footer-studio {
-    color: #f4f4fd;
+    color: #F4F4FD;
 }
