@@ -10,7 +10,7 @@ html {
     --title-text-color: #2E2F42;
     --primary-text-color: #434455;
     --accent-color: #4D5AE5;
-    --active-color: #FFF;
+    --active-color: #ffffff;
     --indent-number: 30px;
 }
 
@@ -75,40 +75,32 @@ body {
 }
 
 .title-hero {
-    font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
-    text-transform: uppercase;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: var(--active-color);
 }
 
 .button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
     color: var(--active-color);
-    background-color: #4D5AE5;
-    margin: 0 auto;
-    padding: 16px 32px;
-    border-radius: 4px;
 }
-
 .button:hover,
 .button:focus {
-    color: var(--active-color);
-    background-color: var(--accent-color);
+    background-color: #404BBF;
 }
 /*-----------------------------------------Our features--------------------------------------*/
 .visually-hidden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
+        list-style: none;
         margin: -1px;
         border: 0;
-        padding: 0;
         white-space: nowrap;
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
@@ -116,16 +108,17 @@ body {
     }
 
 .title-text {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.4px;
-    text-transform: uppercase;
+    letter-spacing: 0.02em;
     color: var(--title-text-color);
 }
 
 .paragraph,.paragraph-address,
 .contact-link-address {
     font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
