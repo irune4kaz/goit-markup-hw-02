@@ -123,10 +123,11 @@ body {
 .contact-link-address {
     font-family: 'Roboto';
     font-style: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.32px;
-    color: var(--primary-text-color);
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 .paragraph-address {
     color: var(--active-color);
@@ -134,10 +135,11 @@ body {
 /*-----------------------------------------What are we doing----------------------------------------*/
 .title-development,.title-team {
     font-size: 36px;
-    line-height: 1.17;
+    font-weight: 700;
+    line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--title-text-color);
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 /*-----------------------------------------Our Team----------------------------------------------*/
 .team {
@@ -150,19 +152,19 @@ body {
 }
 .title-name {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
+    font-size: 20px;
+    line-height: 1.2;
     text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--title-text-color);
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .specialty {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 1.5;
     text-align: center;
-    letter-spacing: 0.4px;
-    color: var(--primary-text-color);
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 /*-----------------------------------------Filters-------------------------------------------*/
 .list-filter {
@@ -185,16 +187,17 @@ body {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.63;
+    line-height: 1.5;
     text-align: center;
-    letter-spacing: 0.64px;
-    color: var(--title-text-color);
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color: #F4F4FD;
 }
 
 .button-filter:hover,
 .button-filter:focus {
     color: var(--active-color);
-    background-color: var(--accent-color);
+    background-color: #404BBF;
 }
 
 .title-text-project {
