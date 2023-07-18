@@ -20,7 +20,7 @@ body {
 }
 /*-----------------------------------------Site header--------------------------------------------*/
 .text-link,.text-link-footer {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -201,17 +201,18 @@ body {
 }
 
 .title-text-project {
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .paragraph-project {
     font-size: 16px;
-    line-height: 1.89;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 /*-----------------------------------------Footer-----------------------------------------------*/
 .footer {
@@ -219,5 +220,5 @@ body {
 }
 
 .footer-studio {
-    color: var(--active-color);
+    color: #f4f4fd;
 }
