@@ -36,7 +36,15 @@ body {
     color: #2E2F42;
 }
 .link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-decoration: none;
+    color: #434455;
+}
+.link:hover,
+.link:focus {
+    color: #404bbf;
 }
 
 .list {
@@ -89,6 +97,8 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    align-items: center;
+    margin: 0 auto;
     cursor: pointer;
     color: var(--active-color);
 }
@@ -165,9 +175,8 @@ body {
 }
 /*-----------------------------------------Filters-------------------------------------------*/
 .list-filter {
-    display: inline-flex;
+    list-style: none;
     justify-content: center;
-    gap: 24px;
 
 }
 .list-project {
