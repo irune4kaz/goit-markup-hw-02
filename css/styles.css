@@ -28,7 +28,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    color: var(--accent-color);
+    color: #4d5ae5;
 }
 
 
@@ -157,6 +157,7 @@ body {
     display: flex;
     margin-right: calc(-1 * var(--indent-number));
     margin-top: 50px;
+    background-color: #FFFFFF;
 }
 .title-name {
     font-weight: 500;
@@ -228,4 +229,7 @@ body {
 
 .footer-studio {
     color: #F4F4FD;
+}
+footer-paragraph {
+    color:  #F4F4FD;
 }
