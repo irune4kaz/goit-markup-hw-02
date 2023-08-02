@@ -135,10 +135,6 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.paragraph-address {
-    font-style: normal;
-    color: var(--active-color);
-}
 /*-----------------------------------------What are we doing----------------------------------------*/
 .title-development,.title-team {
     font-size: 36px;
