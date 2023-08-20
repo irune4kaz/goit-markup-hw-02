@@ -72,6 +72,10 @@ body {
     font-style: normal;
 }
 
+.address {
+    font-style: normal;
+}
+
 .contact-link-address:hover,
 .contact-link-address:focus {
     color: #404bbf;
@@ -108,14 +112,14 @@ body {
 }
 /*-----------------------------------------Our features--------------------------------------*/
 .visually-hidden {
-        list-style: none;
-        margin: -1px;
-        border: 0;
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
-    }
+    list-style: none;
+    margin: -1px;
+    border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .title-text {
     font-weight: 500;
@@ -224,7 +228,15 @@ body {
 
 .footer-studio {
     color: #F4F4FD;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+
 }
 footer-paragraph {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color:  #F4F4FD;
 }
