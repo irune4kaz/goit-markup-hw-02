@@ -170,6 +170,8 @@ footer-paragraph {
     display: flex;
     margin-right: calc(-1 * var(--indent-number));
     margin-top: 50px;
+}
+.text-list-team {
     background-color: #FFFFFF;
 }
 .title-name {
